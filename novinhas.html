@@ -1,0 +1,3258 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<!--compatibilidade pra celular.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--fonte do google.html -->
+
+<!--gogle fontes.html -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Secular+One&display=swap" rel="stylesheet">
+<!--gogle fontes.html -->
+
+<!--Twitter fonte cdn 01 .html -->
+<!--botao-twitterfonte.html -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Twitter fonte cdn 01 .html -->
+
+
+<title>Novinhas Teens</title>
+<link rel="stylesheet" href="responsivo4.css">
+
+
+
+
+<style>
+
+*{padding: 0px; margin: 0px;}
+
+body,ul,li,img,object,embed,video,iframe,iframe[style]{
+max-width: 100%;
+}
+
+
+body {
+background-color: #C66BBD; /* cor pagina */
+}
+
+
+a {
+text-decoration: none; /* tira subliado dos link */
+color: white;  /* cor dos link */
+}
+
+
+a:hover {
+color: black;  /* cor  quando passar o mause no link mouse over link */
+}
+
+a:visited {
+color: #770000;  /* cor do link visitado */
+}
+
+h1 {
+text-align: center;
+margin-top: 500px;
+margin: 10px
+}
+
+
+</style>
+
+
+<!--menucss .html -->
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+
+.menu{
+width: 100%;
+height: 55px;
+background-color: black; /* cor do du fundo da barra menu  */
+font-family:arial black; /* fonte do texto do menu */
+
+}
+
+.menu ul{
+list-style: none;
+position: relative;
+
+}
+
+.menu ul li{
+width: 150px; /* lagura dos botoes */
+float: left;
+}
+
+.menu a{
+padding: 15px; /* tamanho dos botoes */
+display: block;
+text-decoration: none;
+text-align: center;
+background-color: black; /* cor dos botoes */
+color: #fd64f0; /* cor do texto dos botoes */
+margin-top: 0px;  /* epaçamento  dos botoes vertical */
+}
+.menu ul ul {
+position: absolute;
+visibility: hidden;
+}
+
+
+.menu ul li:hover > ul {
+visibility:visible;
+
+}
+.menu a:hover {
+background-color: #fd64f0; /* cor dos botoes ao passar o mause */
+color: black;
+transition:1s; /* tempo de transição dos botões não responsivo*/
+}
+
+.menu ul ul li{
+float: none;
+border-bottom: solid 10px red; /* linha abaixo dos sub botoes */
+margin-top: 0px;  /* espaço vertical dos sub botoes */
+
+}
+
+.menu ul ul li a{
+background-color: blue; /* cor de fundo dos sub botoes */
+
+}
+
+label[for="bt_menu"]{
+display: none;
+padding: 1px; /* tamanho do botão responsivo */
+background-color: black; /* cor do botão reponsivo */
+color: #fd64f0;     /* cor das linhas do botão reponsivo */
+font-family: Arial;
+text-align: center;
+font-size: 40px;  /* tamanho das linhas do botão reponsivo */
+cursor: pointer;
+width: 55px; /* largura do botão responsivo */
+height: 60px; /* autura do botão responsivo */
+border-radius: 3px;
+margin-left: 2px;
+margin-top: 2px;
+}
+
+#bt_menu{
+display: none;
+}
+@media (max-width:740px) {
+label[for="bt_menu"]{
+display: block;
+}
+
+#bt_menu:checked ~ .menu {
+margin-left: 0;
+}
+
+.menu{
+margin-top: 5px;     /* espaçamento do botão reponsivo entre o menu */
+margin-left: -100%;
+transition: all 1s; /* tempo de transição do menu  */
+}
+
+.menu ul li {
+width: 100%;
+
+}
+.menu ul ul {
+position: static;
+overflow: hidden;
+max-height: 0px;
+max-width: 700px;
+
+
+}
+.menu ul li:hover ul{
+max-height: 450px;    /* autura entre os sub botões */
+max-width:auto;
+margin-bottom: 0px;  /* espaçamento abaixo dos sub botões */
+transition:1s; /* tempo de transição dos sub botões */
+}
+}
+</style>
+<!--menucss .html -->
+
+
+
+
+<!--1280geralcss.html -->
+<!--texto-superiorcss.html -->
+<style>
+
+
+.texto-superior {
+text-decoration: none;
+color: black;
+width: 1247px;
+display: block;
+margin-top: 20px;
+margin-left: 15px;
+}
+
+.texto-superior-fonte{
+font-family: 'Oswald', sans-serif;
+line-height: 30px
+}
+
+.texto-superior-fonte-link{
+font-family: 'Oswald', sans-serif;
+line-height: 30px
+}
+
+.texto-direita{
+display: block;
+width: 310px;
+margin-top: -140px;
+margin-left: 940px;
+font-size: 20px;
+line-height: 40px
+}
+
+.titolo-top{
+font-size: 30px;
+font-family: 'Ultra', serif;
+}
+
+.chat{
+font-family: 'Secular One', sans-serif;
+}
+
+.posts {
+background-color: black;   /* cor da borda post */
+padding: 5px;
+width: 1247px;
+height:auto;
+margin-top: 20px;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.postagens {
+background-color:#FD64F0;
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 1236px;
+margin-top: 7px;
+margin-left: 0px;
+}
+
+.post-individual {
+width: 295px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+
+.texto-descrição {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+img {
+max-width: 286px;
+max-height: 260px;
+margin-left: 0px;
+}
+
+.imail{    /* imailcssgeral */
+width: auto;
+text-align: center;
+font-size: 35px;
+font-family: 'Secular One', sans-serif;
+margin-top: 15px;
+}
+
+.Baixar-paginas{    /* Baixar-paginascss */
+font-family: 'Oswald', sans-serif;
+}
+
+.informar-links{    /* informar-linkscss */
+font-family: 'Roboto', sans-serif;
+text-align: left;
+margin-top: 30px;
+}
+
+</style>
+<!--1280geralcss.html -->
+
+
+
+<!--=========================================.html -->
+
+
+<!--postagensgeralcss.html -->
+<style>
+
+.postagens {
+
+
+}
+
+
+</style>
+<!--postagensgeralcss.html -->
+
+
+
+
+<!--.codigo responsivo.html -->
+<style>
+
+/* 1920css */
+
+@media (max-width:1920px) {
+.texto-superior {
+width: 100%;
+display: block;
+margin-top: 20px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:1920px) {
+.texto-direita {
+display: flex;
+display: block;
+width: 350px;
+margin-top: -140px;
+margin-left: 1460px;
+font-size: 27px;
+}
+}
+
+@media (max-width:1920px) {
+.posts {
+padding: 5px;
+width: 1880px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:1920px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 1869px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:1920px) {
+.post-individual {
+width: 331px;
+margin-top: 5px;
+padding: 10px;
+margin: 10px;
+}
+}
+
+@media (max-width:1920px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:1920px) {
+img {
+max-width: 325px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:1920px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+}
+}
+/* 1920css */
+
+
+
+
+
+
+
+
+
+
+
+/* 1280css */
+
+@media (max-width:1280px) {
+.texto-superior {
+width: 1247px;
+display: block;
+margin-top: 20px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:1280px) {
+.texto-direita {
+display: flex;
+display: block;
+width: 310px;
+margin-top: -140px;
+margin-left: 940px;
+font-size: 20px;
+}
+}
+
+@media (max-width:1280px) {
+.posts {
+padding: 5px;
+width: 1247px;
+height:auto;
+margin-top: 50px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:1280px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 1236px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:1280px) {
+.post-individual {
+width: 295px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:1280px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:1280px) {
+img {
+max-width: 286px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:1280px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 1280css */
+
+
+
+
+
+
+/* 1080css */
+
+@media (max-width:1080px) {
+.texto-superior {
+width: 100%;
+display: block;
+margin-top: 20px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:1080px) {
+.texto-direita {
+display: flex;
+display: block;
+width: 310px;
+margin-top: -140px;
+margin-left: 750px;
+font-size: 20px;
+}
+}
+
+@media (max-width:1080px) {
+.posts {
+padding: 5px;
+width: 1048px;
+height:auto;
+margin-top: 20px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:1080px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 1038px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:1080px) {
+.post-individual {
+width: 332px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:1080px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:1080px) {
+img {
+max-width: 323px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:1080px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 1080css */
+
+
+
+
+
+
+/* 1024css */
+
+@media (max-width:1024px) {
+.texto-superior {
+width: 990px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:1024px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 300px;
+margin-top: -150px;
+margin-left: 700px;
+font-size: 20px;
+}
+}
+
+@media (max-width:1024px) {
+.posts {
+padding: 5px;
+width: 980px;
+height:auto;
+margin-top: 30px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:1024px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 969px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:1024px) {
+.post-individual {
+width: 313px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;;
+}
+}
+
+@media (max-width:1024px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:1024px) {
+img {
+max-width: 306px;
+max-height: 280px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:1024px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 1024css */
+
+
+
+
+
+/* 896css */
+
+@media (max-width:896px) {
+.texto-superior {
+width: 865px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:896px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 865px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:896px) {
+.posts {
+padding: 5px;
+width: 815px;
+height:auto;
+margin-top: 10px;
+margin-left: 31px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:896px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 805px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:896px) {
+.post-individual {
+width: 254px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:896px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:896px) {
+img {
+max-width: 246px;
+max-height: 220px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:896px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 896css */
+
+
+
+
+
+
+
+
+
+/* 846css */
+
+@media (max-width:846px) {
+.texto-superior {
+width: 815px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:846px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 815px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:846px) {
+.posts {
+padding: 5px;
+width: 815px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:846px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 805px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:846px) {
+.post-individual {
+width: 254px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:846px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:846px) {
+img {
+max-width: 246px;
+max-height: 220px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:846px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 846css */
+
+
+
+
+
+/* 812css */
+
+@media (max-width:812px) {
+.texto-superior {
+width: 780px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:812px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 780px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:812px) {
+.posts {
+padding: 5px;
+width: 783px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:812px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 772px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:812px) {
+.post-individual {
+width: 243px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:812px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:812px) {
+img {
+max-width: 236px;
+max-height: 210px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:812px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 812css */
+
+
+
+
+/* =========================================================== */
+
+
+
+
+
+/* 800css */
+
+@media (max-width:800px) {
+.texto-superior {
+width: 730px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:800px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 730px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:800px) {
+.posts {
+padding: 5px;
+width: 733px;
+height:auto;
+margin-top: 10px;
+margin-left: 30px;
+
+}
+}
+
+@media (max-width:800px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 722px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:800px) {
+.post-individual {
+width: 347px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:800px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:800px) {
+img {
+max-width: 340px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:800px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 800css */
+
+
+
+/*=============================================== */
+
+
+
+/* 768css */
+
+@media (max-width:768px) {
+.texto-superior {
+width: 730px;
+display: block;
+margin-top: 10px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:768px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 730px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:768px) {
+.posts {
+padding: 5px;
+width: 733px;
+height:auto;
+margin-top: 10px;
+margin-left: 16px;
+
+}
+}
+
+@media (max-width:768px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 722px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:768px) {
+.post-individual {
+width: 347px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:768px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:768px) {
+img {
+max-width: 340px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:768px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 768css */
+
+
+
+
+
+
+
+/* 740css */
+
+@media (max-width:740px) {
+.texto-superior {
+width: 710px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:740px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 710px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:740px) {
+.posts {
+padding: 5px;
+width: 710px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:740px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 699px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:740px) {
+.post-individual {
+width: 335px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:740px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:740px) {
+img {
+max-width: 326px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:740px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 740css */
+
+
+
+
+
+
+/* 720css */
+
+@media (max-width:720px) {
+.texto-superior {
+width: 690px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:720px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 690px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:720px) {
+.posts {
+padding: 5px;
+width: 690px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:720px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 679px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:720px) {
+.post-individual {
+width: 325px;
+margin-top: 5px;
+padding: 3px;
+margin: 3px;
+}
+}
+
+@media (max-width:720px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:720px) {
+img {
+max-width: 317px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:720px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 35px;
+margin-top: 15px;
+}
+}
+/* 720css */
+
+
+
+
+
+/* 667css */
+
+@media (max-width:667px) {
+.texto-superior {
+width: 640px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:667px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 640px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:667px) {
+.posts {
+padding: 5px;
+width: 638px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+
+}
+}
+
+@media (max-width:667px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 627px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:667px) {
+.post-individual {
+width: 301px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:667px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:667px) {
+img {
+max-width: 293px;
+max-height: 240px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:667px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 667css */
+
+
+
+
+
+
+/* 640css */
+
+@media (max-width:640px) {
+.texto-superior {
+width: 610px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:640px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 610px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:640px) {
+.posts {
+padding: 5px;
+width: 608px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:640px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 597px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:640px) {
+.post-individual {
+width: 286px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:640px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:640px) {
+img {
+max-width: 277px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:640px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 640css */
+
+
+
+
+
+
+/* 568css */
+
+@media (max-width:568px) {
+.texto-superior {
+width: 540px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:568px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 540px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:568px) {
+.posts {
+padding: 5px;
+width: 537px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:568px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 527px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:568px) {
+.post-individual {
+width: 251px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:568px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:568px) {
+img {
+max-width: 242px;
+max-height: 200px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:568px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 568css */
+
+
+
+
+
+
+/* 480css */
+
+@media (max-width:480px) {
+.texto-superior {
+width: 450px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:480px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 450px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:480px) {
+.posts {
+padding: 5px;
+width: 383px;
+height:auto;
+margin-top: 10px;
+margin-left: 50px;
+}
+}
+
+@media (max-width:480px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 373px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:480px) {
+.post-individual {
+width: 361px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:480px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:480px) {
+img {
+max-width: 352px;
+max-height: 300px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:480px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 480css */
+
+
+
+/* =============================================== */
+
+
+/* 414css */
+
+@media (max-width:414px) {
+.texto-superior {
+width: 385px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:414px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 385px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:414px) {
+.posts {
+padding: 5px;
+width: 383px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:414px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 373px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:414px) {
+.post-individual {
+width: 361px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:414px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:414px) {
+img {
+max-width: 352px;
+max-height: 300px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:414px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 414css */
+
+
+
+
+
+/* 384css */
+
+@media (max-width:384px) {
+.texto-superior {
+width: 345px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:384px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 345px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:384px) {
+.posts {
+padding: 5px;
+width: 345px;
+height:auto;
+margin-top: 10px;
+margin-left: 8px;
+margin-right: 8px;
+}
+}
+
+@media (max-width:384px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 335px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:384px) {
+.post-individual {
+width: 325px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:384px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:384px) {
+img {
+max-width: 315px;
+max-height: 290px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:384px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 384css */
+
+
+
+
+
+
+/* 375css */
+
+@media (max-width:375px) {
+.texto-superior {
+width: 345px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:375px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 345px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:375px) {
+.posts {
+padding: 5px;
+width: 345px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:375px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 335px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:375px) {
+.post-individual {
+width: 325px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:375px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:375px) {
+img {
+max-width: 315px;
+max-height: 290px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:375px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 375css */
+
+
+
+
+
+
+/* 360css */
+
+@media (max-width:360px) {
+.texto-superior {
+width: 330px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:360px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 330px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:360px) {
+.posts {
+padding: 5px;
+width: 330px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:360px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 320px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:360px) {
+.post-individual {
+width: 325px;
+margin-top: 5px;
+padding: 2px;
+margin: 3px;
+}
+}
+
+@media (max-width:360px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:360px) {
+img {
+max-width: 298px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:360px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 360css */
+
+
+
+
+
+/* 320css */
+
+@media (max-width:320px) {
+.texto-superior {
+width: 290px;
+display: block;
+margin-top: -50px;
+margin-left: 15px;
+}
+}
+
+@media (max-width:320px) {
+.texto-direita {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 290px;
+margin-top: 5px;
+margin-left: 15px;
+font-size: 20px;
+}
+}
+
+@media (max-width:320px) {
+.posts {
+padding: 5px;
+width: 290px;
+height:auto;
+margin-top: 10px;
+margin-left: 14px;
+}
+}
+
+@media (max-width:320px) {
+.postagens {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 280px;
+margin-top: 7px;
+margin-left: 0px;
+}
+}
+
+@media (max-width:320px) {
+.post-individual {
+width: 271px;
+margin-top: 5px;
+padding: 2px;
+margin: 2px;
+}
+}
+
+@media (max-width:320px) {
+.texto-descrição {
+  font-size: 20px;
+}
+}
+
+@media (max-width:320px) {
+img {
+max-width: 260px;
+max-height: 260px;
+margin-left: 0px;
+}
+}
+
+/* imailcss */
+@media (max-width:320px) {
+.imail{
+width: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+}
+/* 320css */
+
+
+
+</style>
+<!--.codigo responsivo.html -->
+
+
+<!--.============================================.html -->
+
+
+<!--botao-twittercss.html -->
+<style>
+
+
+.botao-twitter-pisition{
+margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.botao-twitter{
+font-family: arial;
+font-size:5px;
+text-transform: uppercase;
+font-weight:500;
+border:none;
+padding:5px;
+cursor: pointer;
+display:inline-block;
+text-decoration: none;
+background:black;
+color:red;
+width: 200px;
+height: 45px;
+border-radius: 5px;
+}
+
+.botao-twitter:hover{
+color: #FD64F0;
+transition:0.4s; /* tempo de transição do btao*/
+}
+
+
+</style>
+<!--botao-twittercss.html -->
+
+
+
+<!--========================================.html -->
+
+
+<!--rodapecss.html -->
+<style>
+
+/* cor do fundo do rodape  */
+.rodape-da-pagina{
+background-color: #000000;
+width: auto;
+height: auto;
+margin: 12px;
+border-radius: 4px;
+margin-top: 100px;
+padding: 3px;
+}
+.contadores{   /* contadorescss  */
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.contadores a {
+font-size: 20px;
+}
+
+.volte{
+font-family: 'Ultra', serif;
+font-size: 20px;
+text-align: center;
+color: #C66BBD;
+}
+
+.contador-de-visitas-online{
+width: 250px;
+min-width: 250px;
+height: 70px;
+}
+
+.contador-de-usuarios-online{
+width: 250px;
+min-width: 250px;
+height: 70px;
+}
+
+</style>
+<!--rodapecss.html -->
+
+
+
+
+</head>
+<body>
+
+<!--menuhtml.html -->
+<!--menu de cotegorias.html -->
+<input type="checkbox" id="bt_menu">
+
+<label for="bt_menu"> &#9776;</label>
+
+<nav class="menu">
+<ul>
+<!--botão horizotais -->
+<li><a href="index.html">Novinha</a></li>
+<li><a href="maduras.html">Madura</a></li>
+<li><a href="trans.html">Trans</a></li>
+<li><a href="#">Em breve</a></li>
+<li><a href="#">Em breve</a></li>
+<!--botão horizotais -->
+<ul>
+</nav>
+<!--menu de cotegorias.html -->
+<!--menuhtml.html -->
+
+<!--texto-superiorhtml html -->
+<div class="texto-superior">
+
+
+<h2 class="texto-superior-fonte">
+Links atualizado, Updated link 08/10/2020
+</p>Videos de novinhas. Videos to watch teen
+</h2>
+
+<!--divisão html -->
+<h2 class="texto-superior-fonte-link">
+
+<a href="https://mzl.la/33vU08R" target="_blank">Traduzir p&aacute;ginas usando navegador
+Mozilla Firefox</a>
+
+</h2>
+<!--divisão html -->
+
+<!--divisão html -->
+<h2 class="texto-superior-fonte-link">
+
+<a href="https://mzl.la/33vU08R" target="_blank">Translate pages using Mozilla Firefox
+browser</a></h2>
+
+</h2>
+<!--divisão html -->
+
+</div>
+<!--texto-superiorhtml html -->
+
+
+
+
+
+<!--texto-direitahtml html -->
+<div class="texto-direita">
+
+<div class="top">
+<h1 class="titolo-top">Top Prazeres</h1>
+</div>
+
+<h1 class="chat">
+<a href="https://minnit.chat/TopprazeresChat" target="_blank">Chat Online</a></h1>
+
+</div>
+<!--texto-direitahtml html -->
+
+
+
+
+
+
+<section class="posts">
+<section class="postagens">
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Ar" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169lll/93/18/c6/9318c6f7cb524c901afac3d14a839c23/9318c6f7cb524c901afac3d14a839c23.2.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Loira magrinha</p>
+
+<p dir="ltr">Fazendo teste</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:10-480p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Av" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169poster/8b/07/6b/8b076bc542f41df0b5fcd91a87c3252b/8b076bc542f41df0b5fcd91a87c3252b.13.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Morena de uniforme </p>
+
+<p dir="ltr">colegial internato</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:10-1080p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Aw" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169lll/2f/c3/4d/2fc34d3acedb629dbffbd4efe2a4e350/2fc34d3acedb629dbffbd4efe2a4e350.1.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Moreninha cabelo curto</p>
+
+<p dir="ltr">Fazendo teste</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:10-480p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Ay" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169lll/1b/12/5b/1b125b80aa84b641a968eb33b91ff498/1b125b80aa84b641a968eb33b91ff498.20.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Negrinha magrinha</p>
+
+<p dir="ltr">Cabelo raspado</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:20-480p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0BZ" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169lll/73/4f/28/734f284d1b5d2ae2c772e6e1de1dda3f/734f284d1b5d2ae2c772e6e1de1dda3f.26.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Humilde Lolita brasileira</p>
+
+<p dir="ltr">meiga manhosa</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:10-720p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bb" target="_blank"><img alt="" src="https://cdn77-pic.xvideos-cdn.com/videos/thumbs169lll/b7/45/b4/b745b41461fc5e30f5e0b38e509516f3/b745b41461fc5e30f5e0b38e509516f3.26.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Morena peituda de luxo</p>
+
+<p dir="ltr">aceitou gravar</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:20-720p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bd" target="_blank"><img alt="" src="https://warddogs.com/wp-content/uploads/2020/05/video-00286-1024x576.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Casal namorando</p>
+
+<p dir="ltr">em casa na cama</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:10-000p-player</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bg" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169ll/40/10/a3/4010a3b4e0b82d33ae1bc8d348a34e0e/4010a3b4e0b82d33ae1bc8d348a34e0e.1.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Gordinha dormindo</p>
+
+<p dir="ltr">Usando pijama</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:10-000p-player</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bn" target="_blank"><img alt="" src="https://warddogs.com/wp-content/uploads/2020/05/video-00285-1024x576.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Casal namorando</p>
+
+<p dir="ltr">em casa na cama </p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:05-000p-player</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bp" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169poster/55/0e/58/550e58646e85609f8ed1e08173f1cc23/550e58646e85609f8ed1e08173f1cc23.12.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Pegando india magrinha</p>
+
+<p dir="ltr">em casa na cama</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:08-720p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Br" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169poster/d6/5e/14/d65e14ea0fd26eb4e05afe25199b030e/d65e14ea0fd26eb4e05afe25199b030e.3.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Moreninha humilde</p>
+
+<p dir="ltr">fazendo boquete</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:07-1080p-xvideo</p>
+<!--posttexto divisão html -->
+
+</div>
+</div>
+<!--posts divisão html -->
+
+
+<!--========================================== html -->
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Bw" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169poster/5c/81/24/5c812425bd04a28f2c31e3a4557c052a/5c812425bd04a28f2c31e3a4557c052a.30.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Moreninha de óculos</p>
+
+<p dir="ltr">fazendo boquete</p>
+
+<p dir="ltr">Gravo no celular</p>
+
+<p dir="ltr">0:02-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0B0" target="_blank"><img alt="" src="https://ci.phncdn.com/videos/201907/27/237982661/original/(m=eaAaGwObaaaa)(mh=VQnwQjMeJAMPJsrj)12.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Posições incriveis</p>
+
+<p dir="ltr">de uma morena clara </p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:05-720p-pornhub</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Cx" target="_blank"><img alt="" src="https://thumb-lvlt.xhcdn.com/a/_W4bOhz4q-ica_4W91bXZg/006/511/958/1280x720.7.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Aluna magrinha de luxo</p>
+
+<p dir="ltr">seduz professor</p>
+
+<p dir="ltr">Studio russo</p>
+
+<p dir="ltr">0:20-720p-xhamster</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0B1" target="_blank"><img alt="" src="https://thumb-lvlt.xhcdn.com/a/Gf0yPnX8BU9HkBUBRsWE4Q/009/287/406/1280x720.3.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Moreninha clara</p>
+
+<p dir="ltr">Fazendo teste</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:10-480p-xhamster</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0C1" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169lll/54/55/20/5455200adffa9c625a86ec4ee9bd55a3/5455200adffa9c625a86ec4ee9bd55a3.8.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Professor de artes</p>
+
+<p dir="ltr">dando aula pra aluna</p>
+
+<p dir="ltr">Studio russo</p>
+
+<p dir="ltr">0:07-480p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0C4" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169lll/2a/39/7a/2a397ac556b22691b752d56e4cc00f5f/2a397ac556b22691b752d56e4cc00f5f.4.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Loira magrinha</p>
+
+<p dir="ltr">massagem no velho</p>
+
+<p dir="ltr">Studio russo</p>
+
+<p dir="ltr">0:06-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0DB" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169lll/7c/43/e7/7c43e7cd5ff6328ff71c9972d6f53584/7c43e7cd5ff6328ff71c9972d6f53584.16.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Maduro dando uma dura </p>
+
+<p dir="ltr">na patricinha loira magrinha</p>
+
+<p dir="ltr">Familia de luxo</p>
+
+<p dir="ltr">0:06-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0DG" target="_blank"><img alt="" src="https://cdn77-pic.xvideos-cdn.com/videos/thumbs169lll/f5/fc/5a/f5fc5a250d10bea8b5ba61bd4a8d1761/f5fc5a250d10bea8b5ba61bd4a8d1761.15.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Pegando negrinha de luxo</p>
+
+<p dir="ltr">no balanço</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:07-480p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0DK" target="_blank"><img alt="" src="https://cdn77-pic.xvideos-cdn.com/videos/thumbs169lll/98/77/f3/9877f35b32cff733d986e2f1520c9ec2/9877f35b32cff733d986e2f1520c9ec2.3.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Magrinha meiga</p>
+
+<p dir="ltr">carismatica docinho</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:20-360p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0DM" target="_blank"><img alt="" src="https://i7.imagetwist.com/th/36254/0mdkk6w499cp.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Casal em casa</p>
+
+<p dir="ltr">show webcam</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:10-000p-player</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0Dj" target="_blank"><img alt="" src="https://i7.imagetwist.com/th/36185/ahq6eecc8d0c.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Pegando morena magrinha</p>
+
+<p dir="ltr">de luxo no quarto na cama</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:08-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ahmsj" target="_blank"><img alt="" src="https://img250.imagetwist.com/th/36144/ev0mt19dmqft.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Pegando a japinha  </p>
+
+<p dir="ltr">mulher do amigo</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">1:00-720p-VK</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ah0EI" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169lll/0e/ab/14/0eab144e3f7590e637d624014c36a474/0eab144e3f7590e637d624014c36a474.1.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Negrinha rcebendo </p>
+
+<p dir="ltr">executivo</p>
+
+<p dir="ltr">Video antigo VHS</p>
+
+<p dir="ltr">0:10-360p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/AhtrR" target="_blank"><img alt="" src="https://img-hw.xvideos-cdn.com/videos/thumbs169poster/5b/b3/25/5bb32559870c98256f1c164bba2a5d44/5bb32559870c98256f1c164bba2a5d44.19.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Live de amigas</p>
+
+<p dir="ltr">Brasileiras</p>
+
+<p dir="ltr">Caseiro</p>
+
+<p dir="ltr">0:40-1080p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ahtra" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169poster/38/2f/b8/382fb86136922dc7277b20b083d38f8c/382fb86136922dc7277b20b083d38f8c.6.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Gordinha cabelo curto</p>
+
+<p dir="ltr">meiga brasileira</p>
+
+<p dir="ltr">Amador</p>
+
+<p dir="ltr">0:11-10800p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ahtrr" target="_blank"><img alt="" src="https://thumb-lvlt.xhcdn.com/a/ZqdsAsAKqZdgd_ejgXsbFw/010/478/216/1280x720.1.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Filme antigo VHS</p>
+
+<p dir="ltr">cenas antiga</p>
+
+<p dir="ltr">Vintage</p>
+
+<p dir="ltr">1:30-480p-xhamster</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/Ahtr0" target="_blank"><img alt="" src="https://cdn77-pic.xvideos-cdn.com/videos/thumbs169lll/4b/0c/72/4b0c723f95dfadc8398e74f687cb99c2/4b0c723f95dfadc8398e74f687cb99c2.16.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Morena magra guentando</p>
+
+<p dir="ltr">um pau grande</p>
+
+<p dir="ltr">Studio br</p>
+
+<p dir="ltr">0:26-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/AhsU8" target="_blank"><img alt="" src="https://img-l3.xvideos-cdn.com/videos/thumbs169lll/ed/2d/68/ed2d682609daf237b9a1692de41aab6d/ed2d682609daf237b9a1692de41aab6d.29.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Negro pegando moreninha</p>
+
+<p dir="ltr">de luxo manhosa de bruços</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:11-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+
+
+
+
+<!--========================================== html -->
+
+<!--posts divisão html -->
+
+<!--post-individualhtml html -->
+<div class="post-individual">
+<a href="http://www.allanalpass.com/AhsVA" target="_blank"><img alt="" src="https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/61/5e/2f/615e2f49ac745846179c4a453789df11/615e2f49ac745846179c4a453789df11.25.jpg"
+style="height: 300px; width: 450px; border-width: 4px; border-style: solid;" title="Assistir" /></a>
+<!--postfoto divisão html -->
+
+<!--texto-descriçãohtml html -->
+<div class="texto-descrição">
+
+<p dir="ltr">Massagem das magrinhas</p>
+
+<p dir="ltr">de luxo com oleo</p>
+
+<p dir="ltr">Studio</p>
+
+<p dir="ltr">0:12-720p-xvideo</p>
+
+</div>
+<!--posttexto divisão html -->
+</div>
+<!--posts divisão html -->
+
+<!--========================================== html -->
+
+</section>
+</section>
+
+<h2 class="imail">gostososprazeres@<wbr/>protonmail.<wbr/>com</h2>
+
+<h1 class="Baixar-paginas">Baixar paginas<wbr/>
+<a href="http://www.mediafire.com/folder/uhvhv7mphgb5v/TOP+PRAZERES++18+ADULTO" target="_blank">Link-1</a>
+
+<a href="https://www.4shared.com/folder/k__NWzxS/Top_Prazeres.html" target="_blank">Link-2</a>
+
+
+
+
+<!--botao-twitterhtml.html -->
+<div class="botao-twitter-pisition">
+
+<a href="https://twitter.com/gostososprazer1" target="_blank"><button class="botao-twitter" style="font-size:24px"
+>TWITTER&nbsp;&nbsp;<i <i class="fa fa-twitter"
+style="font-size:30px;color:#FD64F0"></i></button></a>
+
+</div>
+<!--botao-twitterhtml.html -->
+
+
+
+<!--informar-linkshtml.html -->
+<div class="informar-links">
+
+<p>Informar problemas em links, para isso copie o link e a descrição do
+post e envie pelo Chat online ou E-mail informando o problema com isso
+você contribui para que os link fiquem online funcionando para você e os
+proximos visitantes e todos agradecemos!.</p>
+<br/>
+<p> Report problems in links, for that copy the link and the description
+of the post and send it by Chat online or E-mail informing the problem
+with that you contribute so that the links are online working for you
+and the next visitors and we all thank you !.</p>
+
+</div>
+<!--informar-linkshtml.html -->
+
+
+
+<!--rodapehtml.html -->
+
+<footer class="rodape-da-pagina">
+<!--contadoreshtml .html -->
+<div class="contadores">
+
+<!--contador de usuarios online .html -->
+<div align="center">
+
+<div class="contador-de-usuarios-online">
+
+<script language="JavaScript">var fhs = document.createElement('script');var fhs_id = "5647455";
+var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
+fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online User&e2=Online Users&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
+document.head.appendChild(fhs);document.write("<span id='o_"+fhs_id+"'></span>");
+</script></div>
+
+</div>
+<!--contador de usuarios online .html -->
+
+<h2 class="volte">Volte sempre !!</h2>
+
+<!--contador de visitas online .html -->
+
+<div class="contador-de-visitas-online">
+
+<script language="JavaScript">var fhsg = document.createElement('script');var fhs_id_g = "416124";
+fhsg.src = "//freehostedscripts.net/ghitcounter.php?site="+fhs_id_g+"&s=14&a=1";
+document.head.appendChild(fhsg);document.write("<span id='g_"+fhs_id_g+"'></span>");
+
+</script>
+
+</div>
+
+<!--contador de visitas online .html -->
+
+</div>
+
+</footer>
+<!--rodapehtml.html -->
+
+</body>
+
+</html>
